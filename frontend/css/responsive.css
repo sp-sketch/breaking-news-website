@@ -1,0 +1,282 @@
+/* Tablet Devices (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-menu {
+        gap: 1rem;
+    }
+
+    .nav-brand h1 {
+        font-size: 1.3rem;
+    }
+
+    /* Hero Section */
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    /* Featured Article */
+    .featured-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-image {
+        height: 250px;
+    }
+
+    .featured-content {
+        padding: 1.5rem;
+    }
+
+    .featured-content h2 {
+        font-size: 1.5rem;
+    }
+
+    /* News Grid */
+    .articles-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    /* Newsletter */
+    .newsletter {
+        padding: 2rem 0;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        border-radius: 4px;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Navigation */
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+    .nav-brand h1 {
+        font-size: 1.1rem;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 30px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .search-box {
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    .search-box input {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    .search-box button {
+        padding: 10px 15px;
+    }
+
+    /* Categories Filter */
+    .categories-filter {
+        padding: 1.5rem 0;
+    }
+
+    .filter-buttons {
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+
+    /* Featured Article */
+    .featured-card {
+        gap: 1rem;
+    }
+
+    .featured-image {
+        height: 200px;
+    }
+
+    .featured-content {
+        padding: 1rem;
+    }
+
+    .featured-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .breaking-badge {
+        top: 10px;
+        left: 10px;
+        padding: 6px 12px;
+        font-size: 0.7rem;
+    }
+
+    /* Section Title */
+    .section-title {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* News Grid */
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .article-card {
+        margin-bottom: 1rem;
+    }
+
+    .article-image {
+        height: 150px;
+    }
+
+    .article-body {
+        padding: 1rem;
+    }
+
+    .article-card h3 {
+        font-size: 1rem;
+    }
+
+    .article-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .article-excerpt {
+        font-size: 0.9rem;
+        -webkit-line-clamp: 2;
+    }
+
+    /* Newsletter */
+    .newsletter-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .newsletter-content p {
+        font-size: 0.9rem;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small Devices (320px and below) */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-brand h1 {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .featured-content h2 {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+    }
+
+    .article-card h3 {
+        font-size: 0.9rem;
+    }
+
+    .newsletter-content h3 {
+        font-size: 1.1rem;
+    }
+}
